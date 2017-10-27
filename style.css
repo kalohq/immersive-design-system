@@ -63,6 +63,15 @@ a {
   text-decoration: none;
 }
 
+/*
+Idea: make more slide like and inset each section?
+*/
+section + section,
+header + section,
+footer + section {
+  margin: 5vh 5vh 0 5vh;
+}
+
 header.pink,
 section.pink {
   background: #ea5f6e;
