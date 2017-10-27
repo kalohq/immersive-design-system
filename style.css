@@ -187,5 +187,60 @@ section.blue {
   color: #ea5f6e;
 }
 
-.button:hover {
+.pink .button:hover {
+  color: #fff;
+  background: #ea5f6e;
+  border-color: #fff;
+}
+
+.notes {
+  font-family: 'Indie Flower', cursive;
+  list-style: none;
+  margin: 0;
+  position: absolute;
+  right: -10%;
+  width: 50%;
+  height: 100%;
+  margin: -10vh 0;
+}
+
+.right .notes {
+  right: auto;
+  left: -10%;
+}
+
+.notes li {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.notes li:first-child {
+  font-size: 2em;
+  top: 50%;
+  left: 50%;
+}
+
+.notes li:nth-child(2) {
+  top: 35%;
+  left: 30%;
+}
+
+.notes li:nth-child(3) {
+  top: 30%;
+  left: 70%;
+}
+
+.notes li:nth-child(4) {
+  top: 47%;
+  left: 85%;
+}
+
+.notes li:nth-child(5) {
+  top: 75%;
+  left: 65%;
+}
+
+.notes li:nth-child(6) {
+  top: 70%;
+  left: 30%;
 }
