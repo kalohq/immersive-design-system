@@ -150,9 +150,16 @@ section.blue {
 .content p {
   max-width: 50%;
   font-weight: 100;
+  line-height: 1.3em;
+  margin: 0.5em 0;
 }
 
 .content.right {
   text-align: right;
   align-items: flex-end;
+}
+
+.content.center {
+  text-align: center;
+  align-items: center;
 }
