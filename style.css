@@ -109,6 +109,12 @@ section.blue {
   color: #fff;
 }
 
+header.white,
+section.white {
+  background: #fff;
+  color: #374561;
+}
+
 .main-header {
   display: flex;
   align-items: center;
@@ -161,6 +167,14 @@ section.blue {
   font-weight: 100;
   line-height: 1.3em;
   margin: 0.5em 0;
+}
+
+.split .content {
+  width: auto;
+}
+
+.split .content p {
+  max-width: 70%;
 }
 
 .content.right {
